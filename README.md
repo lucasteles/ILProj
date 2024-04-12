@@ -1,12 +1,21 @@
 # ILProj
 
-The example class library project, with code written in the [CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language).
-
-Based on [dotnet/corefx/src/System.Runtime.CompilerServices.Unsafe](https://github.com/dotnet/corefx/tree/8c041484dda3059bd4adebebda939a15ee4a087d/src/System.Runtime.CompilerServices.Unsafe).
+The example class library project, with code written in
+the [CIL](https://en.wikipedia.org/wiki/Common_Intermediate_Language).
 
 ## Prerequisites
+
 * Linux, macOS or Windows
-* [.NET Core](https://dotnet.microsoft.com/download) 2.2 or above
+* [.NET 8](https://dotnet.microsoft.com/download)
+
+## Lint/Validation
+
+- [ilverify](https://github.com/dotnet/runtime/blob/main/src/coreclr/tools/ILVerify/README.md) tool
 
 ## Build
+
 * `dotnet build -c Release`
+
+## Test
+
+* `dotnet test`
